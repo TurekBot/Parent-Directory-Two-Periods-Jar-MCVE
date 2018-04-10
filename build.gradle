@@ -1,0 +1,27 @@
+// If you're wondering why there is no "apply plugin: " here, see this: https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '1.2.3'
+}
+
+version '1.0-SNAPSHOT'
+
+
+mainClassName = "Main"
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+
+
+
+//This lets the shadow plugin know which is the main class
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
