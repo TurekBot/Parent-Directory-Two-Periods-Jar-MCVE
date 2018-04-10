@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parent Directory Jar MCVE.iml" filepath="$PROJECT_DIR$/.idea/modules/Parent Directory Jar MCVE.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parent_Directory_Jar_MCVE.iml" filepath="$PROJECT_DIR$/.idea/modules/Parent_Directory_Jar_MCVE.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parent_Directory_Jar_MCVE_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Parent_Directory_Jar_MCVE_main.iml" group="Parent_Directory_Jar_MCVE" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parent_Directory_Jar_MCVE_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Parent_Directory_Jar_MCVE_test.iml" group="Parent_Directory_Jar_MCVE" />
     </modules>
   </component>
 </project>

@@ -24,6 +24,7 @@ public class Controller implements Initializable {
             URL relativeResource = getClass().getResource("../fxml/inner-layout.fxml");
             Parent root = FXMLLoader.load(relativeResource);
             contentPane.getChildren().setAll(root);
+            System.out.println(relativeResource.toExternalForm());
         } catch (Exception e0) {
             System.err.println("An error occurred while loading the inner layout.");
             e0.printStackTrace();
